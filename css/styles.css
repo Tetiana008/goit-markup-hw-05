@@ -627,10 +627,6 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border: none;
 }
 
-.close-icon {
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .modal-close-btn:hover > .modal-close-icon,
 .modal-close-btn:focus > .modal-close-icon {
     fill: #FFFFFF;
@@ -644,6 +640,10 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
+}
+
+.modal-field {
+    margin-bottom: 8px;
 }
 
 .modal-input {
@@ -739,9 +739,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-span {
-    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
-    display: inline-flex;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
